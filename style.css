@@ -238,7 +238,7 @@ section:nth-child(even) {
   align-items: center;
   justify-content: center;
   position: relative;
-  padding: 6rem 1.5rem 4rem;
+  padding: 6rem 1.5rem 1.5rem;
   background: var(--bg);
   overflow: hidden;
 }
@@ -368,6 +368,7 @@ section:nth-child(even) {
 /* ─────────────────────────────────────────
    About
 ───────────────────────────────────────── */
+#about { padding-top: 3rem; }
 .about-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
